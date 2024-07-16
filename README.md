@@ -26,7 +26,7 @@ Copper Pickaxe mines same blocks as Iron Pickaxe.
 | ![h](src/main/resources/assets/segfail/textures/item/copper_axe.png)     | Copper Axe     |
 | ![h](src/main/resources/assets/segfail/textures/item/copper_shovel.png)  | Copper Shovel  |
 | ![h](src/main/resources/assets/segfail/textures/item/copper_pickaxe.png) | Copper Pickaxe |
-| ![h](src/main/resources/assets/segfail/textures/item/copper_Hoe.png)     | Copper Hoe     |
+| ![h](src/main/resources/assets/segfail/textures/item/copper_hoe.png)     | Copper Hoe     |
 
 ## Dev setup
 
