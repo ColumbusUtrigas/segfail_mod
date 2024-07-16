@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "c c"
+  ],
+  "key": {
+    "c": { "item": "minecraft:copper_ingot" }
+  },
+  "result": {
+    "id": "segfail:copper_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "segfail",
+	"version": "${version}",
+	"name": "segfail",
+	"description": "Peregovorka Minecraft mod",
+	"authors": [
+		"Konfa"
+	],
+	"contact": {
+		"homepage": "https://github.com/ColumbusUtrigas/segfail_mod",
+		"sources": "https://github.com/ColumbusUtrigas/segfail_mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/segfail/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"segfail.segfail.Segfail"
+		],
+		"client": [
+			"segfail.segfail.SegfailClient"
+		]
+	},
+	"mixins": [
+		"segfail.mixins.json",
+		{
+			"config": "segfail.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
